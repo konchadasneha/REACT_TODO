@@ -1,0 +1,33 @@
+.center {
+  text-align: center;
+  padding: 20px;
+}
+button {
+  margin: 0 20px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.App {
+  text-align: left;
+}
+.line {
+  position: relative;
+  color: #999999;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+.cursor-color {
+  color: red;
+  cursor: pointer;
+}
+
